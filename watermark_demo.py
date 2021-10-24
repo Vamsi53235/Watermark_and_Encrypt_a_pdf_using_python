@@ -22,7 +22,7 @@ def create_watermark(input_pdf, output, watermark):
     with open(output, 'wb') as out:
         pdf_writer.write(out)
 
-create_watermark('without_watermark.pdf', 'output_watermark.pdf','VAMSI_Watermark.pdf')
+create_watermark('without_watermark.pdf', 'output_watermark.pdf','Watermark.pdf')
 
 
 '''
